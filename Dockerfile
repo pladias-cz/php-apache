@@ -1,4 +1,4 @@
-FROM php:8.3-apache@sha256:40d0493cd5d87138f942ea4c38df4179f7f6b0852dfdf6724cbb0b906e6eed2f
+FROM php:8.3-apache@sha256:1b8b5b0f31cc4552fa3da2f0f02556a8207cbca6e86ec4882ff7b6a644c84a2b
 #Apache:modRewrite
 RUN a2enmod rewrite
 #PHP modules #1
